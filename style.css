@@ -307,6 +307,7 @@ img {
 
 @media (max-width: 960px) {
   .container {
+    padding: 0;
     max-width: 100%;
   }
   .showcase {
@@ -381,5 +382,11 @@ img {
 @media (max-width: 450px) {
   .showcase-content {
     margin-top: 4rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .showcase-content {
+    margin-top: 0;
   }
 }
